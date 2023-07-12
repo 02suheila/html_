@@ -1,0 +1,43 @@
+HTML-HYPER TEXT MARKUP LANGUAGE
+->Used for create web pages
+->Used for content display
+->HTML is not case sensitive (A,a both are same)
+->may be single or double quotes used
+
+HTML TAGS
+->The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+->The <html> element is the root element of an HTML page
+->The <head> element contains meta information about the HTML page
+->The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+->The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+->The <h1> element defines a large heading
+->The <p> element defines a paragraph
+
+HTML ATTRIBUTES:
+href-src-alt-width-height-style-lang-title
+
+1.HTML:             <html></html>-starting and ending of written part
+
+2.BODY:             <body></body>-visiblity part of webpage
+
+3.PARAGRAPH:        <p></p>-paragraph 
+
+4.HEADINGS:         <h1 to h6></h1 to h6>-different heading sizes
+and headings also defined as:-<h1 style="font-size:20px;">hello</h1>
+
+5.HTML LINKS:       <a href=""></a>-hyperlinks
+
+6.HTML IMAGES:      <img src=".jpg" alt=".com" width="" height="">
+src-source file
+alt-alternate text(giving additional information name="value")
+weight,height,href are attributes
+
+7.BREAK THE LINK:   <br>
+
+8.STYLE ATTRIBUTE:  <p style="colour:yellow-red---"></p>
+
+9.LANG ATTRIBUE :   <html lang="en">
+
+10.HORIZONTAL RULE: <hr>
+
+11.PREFORMATTED TEXT:<pre>
