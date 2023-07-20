@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>forms</title>
+        </title>
+    </head>
+    <body>
+        <form>
+        <!--TEXT attribute(sqaure box)
+        text,number,button,submit,date,password,radio,checkbox,file,time etc... attributes-->
+        <input/>
+        <br>
+
+        <input type="text"/>
+
+        <br>
+        <input type="text" placeholder="Enter your name"/>
+        <br>
+
+        <input type="number"/>
+        <br>
+
+        <p>checkbox</p>
+        <input type="checkbox">
+        <br>
+
+        <p>radio</p>
+        <input type="radio"/>
+        <!--only one radio should be acceptable-->
+        <input type ="radio" name="gender" value="Female"/>Female
+        <input type="radio"name="gender" value="male"/>male
+        <br>
+
+        <p>uploading_file</p>
+        <input type="file"/>
+        <br>
+
+        <p>button</p>
+        <input type="button"/><!--itjust give button without any action-->
+        <br>
+
+        <p>password</p>
+        <input type="password">
+        <br>
+
+        <p>reset</p>
+        <input type="reset"/>
+        <br>
+
+        <input type="button" value="click here">
+        <br>
+
+        <p>date</p>
+        <input type="date" placeholder="enter date of birth">
+
+        <!--to enter text of values-->
+        <textarea placeholder="enter address"></textarea>
+        <textarea style=" width:30%;height:70" placeholder="enter address"></textarea>
+        
+        <!--dropdown list-->
+        <br/>
+        <select>
+            <option value="select one fruit">select</option>
+            <option value="GRAPES">GRAPES</option>
+            <option value="APPLE">APPLE</option>
+            <option value="ORANGE">ORANGE</option>
+            <option value="POMOGRANATE">pomogrante</option>
+        </select>
+        <br>
+
+        <button>share</button>
+        
+        </form>
+        <!--SHARE THE CONTENT-without<form></form form our data cant submit to server-->
+
+        <!--TASK name,username,password,date of birth,gender,address,submit,reset -->
+        
+    </body>
+</html>
