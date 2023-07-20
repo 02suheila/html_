@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>web</title>
+        <!--RELATIVE LINKS copied from fontawesometo generate icon-->
+        <script src="https://kit.fontawesome.com/4d3805a9af.js" crossorigin="anonymous"></script>
+        <!--creating icon for webpage-->
+        <link rel="icon" href="smile.webp">
+        
+    </head>
+    <body>
+        <!--image-->
+        <img src="C:\Users\Ibrahim Shaik\Downloads\rani.avif">
+        <br>
+        <!--link in _self tab-->
+        <a href="https://www.google.com/">Google</a>
+        <!--link in another tab-->
+        <a target="_blank" href="https://www.google.com/">GOOGLE</a>
+        <br>
+        <!--creating a image with link-->
+        <a target="_blank" href="https://aec.edu.in/">
+            <img src="aec.jpg" height=50 width="50">
+        </a>
+        <!--to get icon-->
+        <i class="fa-solid fa-cart-shopping"></i>
+        <br>
+        <!--ABSOLUTE LINKSopening files through html-->
+        <!--<a href="html_basic.html">BASICS</a>-->
+        <!--file is present somewhere-->
+        <a href="C:\Users\Ibrahim Shaik\Downloads\html_basic.html">BASICS</a>
+
+    
+    </body>
+</html>
