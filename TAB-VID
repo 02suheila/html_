@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>TABLE</title>
+        <script src="https://kit.fontawesome.com/4d3805a9af.js" crossorigin="anonymous"></script>
+
+        <link rel="icon" href="ta.png">
+    </head>
+    <body>
+        <!--TABLE with rows and columns-->
+        <!--to get borders <table border="">-->
+        <!--cellpadding:space b/w cell border and content
+            ,cellspacing:cell to cell space-->
+        <table border="20" style="border-collapse:collapse;">
+            <tr><!--rows-->
+                <!--columns-->
+                <th>NAME</th>
+                <th>ID</th>
+                <th>MARKS</th>
+            </tr>
+            <tr>
+                <td>swapna</td>
+                <td>98jk</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>aparna</td>
+                <td>99jk</td>
+                <td>90</td>
+            </tr>
+        </table>
+        <!--VIDEOS FROM YOUTUBE-->
+        <iframe width="20%" height="20%" src="https://www.youtube.com/embed/ciOU_smZnqA" title="AdaptedMind March Concept6  InPreparation 16x9 60s Final External" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!--Videos from our device-->
+        <!--control is used to play the video-->
+        <video width="40%" controls loop>
+            <source src="C:\Users\Ibrahim Shaik\Videos\front_end\Front End-1.mp4 "/>
+        </video>
+    
+    </body>
+</html>
