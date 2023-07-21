@@ -7,7 +7,7 @@
     <body style="background-color:pink";>
         <!--headings with text style -->
         <h1 style="background:red"> HELLO </h1>
-        <h3 style="text-align:center;"> HELLO </h3>
+        <h3 style="text-align:center;"> HELLO </h3> 
         <h6> HELLO </h6>
         <h1 style ="font-size:80px;">HELLO</h1>
         <p> asdfghjklDFGHJKLSDFGHJKLSDFGHJK</p>
