@@ -1,0 +1,40 @@
+<!--FONT-FAMILY:they are five types
+    GOOGLE-FONTS HAVE DIFFERENT FONTS: select style-paste link in body-font family in css style
+    syntax:(font-family:fantasy;)
+    1.serif-"times new roman"
+    2.sans-serif
+    3.Monospace
+    4.cursive
+    5.fantasy
+
+    FONT-WEIGHT:bold,normal
+    font-weight:bold;
+
+    FONT-STYLE:normal,ablique,
+    font-style:italic;
+
+    FONT-SIZE:in pixels only
+    font-size :40px;
+
+    FONT-VARIANT:small-caps,large
+    font-variant:small-caps;
+-->
+<HTML>
+    <head>
+        <title>Font</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+        <style>
+            p{
+                font-family: 'Bungee Spice', cursive;                
+                font-style:italic;
+                font-variant:small-caps;
+                font-size :40px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>FONT PROPERTIES</p>
+    </body>
+</HTML>
