@@ -1,15 +1,16 @@
 <html>
     <head>
         <title>TABLE</title>
-        <script src="https://kit.fontawesome.com/4d3805a9af.js" crossorigin="anonymous"></script>
-
         <link rel="icon" href="ta.png">
     </head>
     <body>
         <!--TABLE with rows and columns-->
         <!--to get borders <table border="">-->
         <!--cellpadding:space b/w cell border and content
-            ,cellspacing:cell to cell space-->
+            <table border="20" cellpading="10">
+            ,cellspacing:cell to cell space
+            <table border="20" cellspaccing="10">
+        <th> used to give table heading-->
         <table border="20" style="border-collapse:collapse;">
             <tr><!--rows-->
                 <!--columns-->
@@ -28,7 +29,7 @@
                 <td>90</td>
             </tr>
         </table>
-        <!--VIDEOS FROM YOUTUBE-->
+        <!--VIDEOS FROM YOUTUBE copy embeded from video-->
         <iframe width="20%" height="20%" src="https://www.youtube.com/embed/ciOU_smZnqA" title="AdaptedMind March Concept6  InPreparation 16x9 60s Final External" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <!--Videos from our device-->
         <!--control is used to play the video-->
