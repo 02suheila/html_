@@ -1,0 +1,72 @@
+<!--1st colour name
+2nd rgb(red,green,blue) function(0-255),rgba(red,green,blue,opacity)
+opacity between 0 and 1(tickness of color(light,drk))
+3rd hexadecimal(0-15)-->
+
+
+<!--COLOURING
+    <html>
+    <head>
+        <title>css_2</title>
+        <style>
+            #one{
+                color:burlywood;
+            }
+            #two{
+                color:rgba(255,56,98,1);
+            }
+            #three{
+                color:#00aa00;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="one">one</p>
+        <p id="two">two</p>
+        <p id="three">three</p>
+    </body>
+</html>-->
+
+<!--BACKGROUND PROPERTIES:
+    -background-color     background-color: blue;
+
+    -background-image     url("path")
+
+    -bg-repeat:
+     1.background-repeat:repeat-x(horizontal repeat)
+     2.background-repeat:repeat-y;(vertical repeat)
+     3.background-repeat:repeat-;(repeat number of times)
+     4,background-repeat:no-repeat;(no repetation)
+
+    -bg-attachment
+     1.bg-attachment(fixed)
+     2.background-attachment:scroll;
+
+    -bg-position
+    background-position:top right;
+    background-position:bottom right;
+    background-position: left bottom;
+    -bg-size
+    1.background-size:100% 100%; width height
+    2.background-size:cover; its zoom and cover the page
+-->
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                /*short hand property is used to write in single line*/
+                background:red url('pp.jpg') no-repeat fixed bottom left;
+                /*background-image:url('pp.jpg');
+                background-repeat:no-repeat;
+                background-attachment:fixed;
+                background-position:bottom left;*/
+                
+            }
+        </style>
+    </head>
+    <body>
+        <p>babes</p>
+        <h1>bye</h1>
+    </body>
+</html>
