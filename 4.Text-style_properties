@@ -1,0 +1,67 @@
+<!--TEXT PROPERTIES
+1.text-align:left,center,right,justify
+
+2.text-indent:giving indentation(giving space at staring of paragraph)
+
+3.text-transform:text into another format
+uppercase,lowercase,capitalize
+
+4.letter-spacing giving space between letter to letter in pixels
+if negetive spacing given, then each letter overlaps
+
+5.word-spacing-giving space between word to word in pixels
+
+6.line-height-giving space between line to line
+
+7.text-decoration:giving underlines,overline,line-through,none
+-->
+<!--<html>
+    <head>
+        <title>
+            text
+        </title>
+        <style>
+           p{
+            text-align:left;
+            text-indent:10%;
+            text-transform:capitalize;
+            letter-spacing:10px;
+            word-spacing:10px;
+            line-height:50px;
+            text-decoration:underline;
+           }
+           a{
+            text-decoration:none;
+           }
+        </style>
+    </head>
+    <body>
+        <a href="">hi</a>
+        <a href="">bye</a>
+        <p style="color:blue">i am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy nowi am happy now i am happy now i am happy now i am happy nowi am happy nowi am happy now </p>
+    </body>
+</html>
+-->
+
+<!--STYLE ATTRIBUTES
+    element which are closer ,appers first 
+priority:inline having high
+inline-in main tag css
+    style="color:";
+
+internal-applies in html
+    <style></style
+
+external-written in separate file
+1.link with path 2.define relation
+-->
+<html>
+    <head>
+        <title></title>
+        <link href="external.css" rel="stylesheet">
+    </head>
+    <body>
+        <p>background</p>
+
+    </body>
+</html>
