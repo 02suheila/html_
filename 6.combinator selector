@@ -1,0 +1,52 @@
+<!-- CSS applied for HTML
+selectors:simple selector->element,#id,.class*
+    id-css style for any particular para are heading to apply property(single element)-mainly used in javascript
+    class-css and bootstrap (multiple elements to spply property)
+-------------------------------------------------------------------------------------------    
+combinator selector->
+
+( ) descandant :-ALL GENERATIONS(parent,child,grandchild etc..)
+<section> is used and properties are applied for all.
+
+(>)child :- attribute only for children  not grand children
+section >p/h1{property} only(p or h having attributes)
+
+(+)adjusent :- only one closer after div adjacents are applied
+div+h1{
+        background-color:yellow;
+    }
+
+(~)general sibiling :-all elements which come after (div)
+div~h1{
+        background-color:yellow;
+            }
+-------------------------------------------------------------------------------
+
+        -->
+<html>
+    <head>
+        <title>section</title>
+        <style>
+            section >p{
+                color:pink;
+            }
+            div+p{
+                background-color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <p>s-1</p>
+            <p>s2</p>
+            <div>
+                <p>sd1</p>
+                <p>sd2</p>
+            </div>
+            <p>s3</p>
+            <h1>s4</h1>
+            <h1>s6</h1>
+            <p>s5</p>
+        </section>
+    </body>
+</html>
