@@ -1,0 +1,80 @@
+<!--BOX MODEL IN CSS: styling related properties INSITED BOX
+BORDER:outline for every content
+box-shadow:l-r,t-b,blur,color
+
+border-style:(dashed,solid,dotted)
+syn:border-style:dashed,double,solid;
+U6
+border-width:thin,thick,large,small,medium
+border-width:medium;
+1st way: border-width:1px              top right bottom left
+2nd way: border-width:2px 10px         2px(t,b) 10px(r,l)
+3rd way:border-width:2px 3px 8px 15px  2(t) 3(r) 8(b) 15(l)
+
+border-color:rgba(255)
+border-color:rgba(56,67,223,1);
+
+border-radius:convert box into curve
+border-radius:25px;
+
+border(shorthand property)-written in single line
+
+
+MARGIN:gives gap between 2 r more elements
+margin-left:%
+margin-right:%
+top,bottom
+if u want to center:margin-top;margin-left(adjusting four sides)
+
+PADDING:gives gap between content inside the box(spacing in box)
+padding-top:%
+bottom
+left
+right
+
+
+-->
+<html>
+    <head>
+        <title>box</title>
+        <style>
+            /* *{
+                margin:0%;
+                padding:0%;
+            }to avoid internal spaccing*/
+            p{
+                /*border-style:double;
+                border-width: 1px 5px 8px 6px;
+                border-color:red green pink maroon;*/
+                border: 1px green dashed;
+                margin-top:50%;
+                width:30%;
+                padding-top:2% 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <p>BORDER_ATTRIBUTES</p>
+        <h1>heading</h1>
+        <table border="6" cellspacing="10">
+            <tr>
+                <td>NAME</td>
+                <td>ROLLNO</td>
+                <td>MARKS</td>
+                <td>GENDER</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>R</td>
+                <td>M</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>Na</td>
+                <td>RO</td>
+                <td>MA</td>
+                <td>GE</td>
+            </tr>
+        </table>
+    </body>
+</html>
