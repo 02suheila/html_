@@ -1,0 +1,51 @@
+<!--Toggle tool bar: converts desktop to mobile screen bar
+rightclick-inspect-console-screenwidth,screen height
+
+screen resolutions for all devices
+extra smalll:    <576px                          -old phones
+small screen:    >576px and <768px               -mobile_phones
+medium screen:   >768px and <992px               -tablets
+large screen:    >992px and <(1200px and 1366px) -desktop,laptops
+extra large:     >(1200px and 1366px)            -big monitors
+
+1900px : extra extra large
+
+html:
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width,initial-scale=1"/> name,attributes are content
+viewport says what type of view/display either mobile,lappy
+content says to know what type of device is,
+width defined the device-width and initial-scale defined in what view it starts either top,bottom,left,right
+without this we can't build responsive
+
+css:
+max-width-small
+min-width-large
+
+@media(screen value is going to be given in here){
+    
+}
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>bs</title>
+        <style>
+            body{
+                background-color:peru;
+            }
+            /*for tablet*/
+            @media(max-width:992px) and (min-width:894px){
+                body{
+                    background-color:purple;
+                }
+            }
+            
+        </style>
+
+    </head>
+    <body>
+
+    </body>
+</html>
