@@ -1,7 +1,10 @@
+<!--icon on webpage,image,links(self,blank),image with link,icons,files opening
+-->
 <html>
     <head>
-        <title>web</title> 
-        <!--RELATIVE LINKS copied from fontawesometo generate icon-->
+        <title>web</title>
+        <!--RELATIVE LINKS copied from fontawesometo generate icon <i> and <script> are used 
+            for taking icons from website fontawesome -->
         <script src="https://kit.fontawesome.com/4d3805a9af.js" crossorigin="anonymous"></script>
         <!--creating icon for webpage-->
         <link rel="icon" href="smile.webp">
@@ -27,7 +30,7 @@
         <!--<a href="html_basic.html">BASICS</a>-->
         <!--file is present somewhere-->
         <a href="C:\Users\Ibrahim Shaik\Downloads\html_basic.html">BASICS</a>
-
-    
+        <!--link underline is removed by text-decoration property in text propeties -->
+        
     </body>
 </html>
