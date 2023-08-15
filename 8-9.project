@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+    <head>
+        <title>pro</title>
+        <script src="https://kit.fontawesome.com/4d3805a9af.js" crossorigin="anonymous"></script>
+        <style>
+            *{
+                margin:0%;
+            }
+            img{
+                vertical-align:center;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-family:sans-serif;
+                font-size:15px;
+            }
+            .logo{
+                margin-left:19%;
+                
+            }
+            .sec1>a{
+                margin-right:2%;
+            }
+            .sec2{
+                display:flex;
+                background-color:grey;
+                color:white;
+                border-width:6px;
+                padding: 9% 5%;
+                font-family:sans-serif;
+            }
+            .unlimited{
+                font-size: 25px;
+            }
+            .web{
+                font-size:30px;
+            }
+            .loreum{
+                color:rgba(256,256,256,0.4);
+            }
+            .get{
+                background-color:orange;
+                color: white;
+                border-radius:30px;
+                padding: 0.8% 3%;
+                border: 1px solid white;
+                font-family: serif;
+                font-size:12px;
+                cursor: pointer;
+            }
+            .read{
+                background-color:darkgrey;
+                color:white;
+                border-radius:30px;
+                padding: 0.8% 3%;
+                border: 1px solid rgba(43, 42, 42, 0);
+                font-family: serif;
+                font-size:12px;
+                cursor: pointer;
+            }
+            .circles{
+                margin-left:20%;
+            }
+            .cir1{
+                background-color: orange;
+                border-radius:80%;
+                padding:30% 18%;
+                width:90%;
+            }
+            .cir2{
+                background-color:white;
+                color:grey;
+                border-radius:50%;
+                padding:20% 15%;
+                width:65%;
+                margin-left: 50%;
+            }
+            .sec3{
+                background-color: black;
+                padding:2%;
+                color:white;
+                display:flex;
+            }
+            .search{
+                border:none;
+                background-color: black;
+                padding:1.2%;
+                width:30%;
+                outline:none;
+                border-width:thin;
+                color:white;
+                margin-left:15%;
+            }
+            .but{
+                background-color:grey;
+                color:white;
+                padding:1.2%;
+                width:10%;
+                border:none;
+                margin-left:-1%;
+                margin-right: 10%;
+            }
+            .dollar{
+                    color:gray;
+            }
+
+            .domain{
+                font-weight:bold;
+                color:white;
+            }
+            .pa{
+                border-color:gray;
+                border-right-style: solid;
+                padding:0% 2%;
+                border-width: thin;
+               
+            }
+            .sec4{
+                padding:10% 10%;
+            }
+            .divpa{
+                display:flex;
+            }
+            .sec5{
+                background-color: grey;
+                display:flex;
+                flex-direction:row-reverse;
+            }
+            .bg2{
+                width:40%;
+                color:white;
+                padding:5% 5%;
+                background-color:black;
+            }
+            .circlee1{
+                border :1px solid grey;
+                background-color: gray;
+                border-radius: 50%;
+                padding:5%;
+                margin-right: 3%;
+            }
+            @media(max-width:1000px){
+                .logo{
+                    margin-left:10%;
+                }
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <section class="sec1">
+            
+            <img class="logo" src="pro_pic.png" alt="company_logo">
+           
+            <a style="color:orange;margin-left:5%" href="#">Home</a>
+            <a href="#">Domain</a>
+            <a href="#">Hosting</a>
+            <a href="#">Website</a>
+            <a href="#">Affliate</a>
+            <a href="#">Support</a>
+            <a href="#">Block</a>
+            <a href="#">Contact</a>
+        </section>
+        <section class="sec2">
+            <div>
+                <p>
+                    <span class="unlimited">UNLIMITED</span>
+                    <br>
+                    <span class="web">WEB HOSTING</span>
+                </p>
+                <br>
+                <p class="loreum">Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <br>
+                <button class="read">READ MORE</button>
+                <button class="get">GET STARTED NOW</button>
+            </div>
+            <div class="circles">
+                <p class="cir1">
+                    <span style="font-size:20px">Starting at<span><br/>
+
+                    </span style="font-size:60px"> $4.99/mo</span><br/>
+                    
+                </p>
+                <p class="cir2">
+                    <span >Up to</span><br/>
+                    <span> 50% off</span>
+                </p>
+            </div>
+        </section>
+        <section class="sec3">
+            <input class="search" type="text" placeholder="Enter Your Domain Name Here">
+            <button class="but">search Domain</button>
+            <p class="pa">
+                <span class="domain">.com</span><br>
+                <span class="dollar">$11.99</span>
+            </p>
+            <p class="pa">
+                <span class="domain">.org</span><br>
+                <span class="dollar">$12.99</span>
+            </p>
+            <p class="pa">
+                <span class="domain">.net</span><br>
+                <span class="dollar">$15.99</span>
+            </p>
+            
+            <p>
+                <span class="domain" style="margin-left:60%">.co</span><br>
+                <span class="dollar" style="margin-left:60%">$09.99</span>
+            </p>
+
+        </section>
+        <section class="sec4">
+            <h1>Welcome to Our Website</h1>
+            <br>
+            <p>Lorem ipsum is placeholder text commonly used <br>in the graphic,<span style="color:orange"> print, and publishing industries</span> for previewing layouts and visual mockups</p>
+            <br>
+            <div class="divpa">
+
+                <div style="margin-right:4%">
+                    <p>
+                        <i class="fa-solid fa-desktop"></i>
+                        <span style="font-size:12px; font-weight: bold">Dedicated Server</h3>
+                    </p>
+                    <br/>
+                    
+                    <p>Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups</p><br></br>
+                    
+                    <p><i class="fa-solid fa-angles-right"></i>read more</p>
+                </div>
+                <div style="margin-right:4%">
+                    <p style="color:orange">
+                        <i class="fa-solid fa-rocket"></i>
+                        
+                        <span style="font-size:12px; font-weight: bold; ">Dedicated Server</h3>
+                    
+                </p>
+                <br>
+                    <p>Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups</p><br></br>
+                    
+                    <p><i class="fa-solid fa-angles-right"></i>read more</p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fa-solid fa-user"></i>
+                        <span style="font-size:12px; font-weight: bold;">Dedicated Server</h3>
+                    
+                    </p>
+                    <br>
+                    <p>Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups</p><br></br>
+                    
+                    <p> <i class="fa-solid fa-angles-right"></i> read more</p>
+                </div>
+        </div>
+        </section>
+        <section class="sec5">
+            <div ></div>
+            
+            <div class="bg2">
+                <h1>Why Choose Us</h1>
+                <p>Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups</p><br></br>
+                <div style="display:flex;">
+                    <p class="circlee1"></p>
+                    <p>
+                        <span>UNLIMITED WEBHOSTING FEATURES</span><br>
+
+                        <span style="color:gray;font-size:15px">Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups</span><br></br>
+                    </p>
+
+                </div>
+                <div style="display:flex;margin-top: 5%;">
+                    <p class="circlee1"></p>
+                    <p>
+                        <span>Award winning support</span><br>
+
+                        <span style="color:gray;font-size:15px">Lorem ipsum is placeholder text commonly used <br>in the graphic, print, and publishing industries for previewing layouts and visual mockups</span><br></br>
+                    </p>
+
+                </div>
+                
+            </div>
+        </section>
+        
+    </body>
+</html>
