@@ -1,0 +1,76 @@
+<!--LAYOUT
+    <<FLEXBOX FROGGY used for layout practice>>
+    flexbox - one row r one column
+    display:felx applied to only parent of class
+    
+    flex-direction-the direction of content where the parent is using
+    flex-direction:column,row,row-reverse(shifts to left side),column reverse(reverse the values in column)
+    
+    flex-wrap  -when the content is more,it is used to arrange in new line to avoid scroll the screen horizontally
+    flex-wrap:wrap  wrap-reverse  nowrap;
+
+    flex-flow  - shorcut to write all flex properties
+    
+    justify-content - adjusting the content
+    justify-content: flex-start;fex-end;center;space-around;space-between;space-evenly
+    
+    align-items:  -content to a position
+    align-items: flex-start;strech;flex-end;center;
+
+    order:order to set 
+
+    Grid    - combination of multiple rows and columns
+-->
+<html>
+    <head>
+        <title>layout</title>
+        <link rel="icon" href="smile.webp">
+        <style>
+            .parent{
+                display:flex;
+                background:rgb(206, 102, 137);
+                flex-direction: row-reverse;
+                
+                flex-wrap: wrap;
+                /*flex-flow: wrap-reverse row-reverse;*/
+                justify-content: flex-end;
+                /*height:400px;
+                align-items: center;*/
+                
+            }
+                
+
+            p{
+                background-color:peachpuff;
+                width:fit-content;/*used to fix the content to avoid horizontall scroll on small screens*/
+                padding:1%;
+                color:red;
+                margin:1%;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <p style="order:5">one</p>
+            <p style="order:4">two</p>
+            <p style="order:3">three</p>
+            <p style="order:2">four</p>
+            <p style="order:1">five</p>
+            <!--<p>six</p>
+            <p>seven</p>
+            <p>eight</p>
+            <p>nine</p>
+            <p>ten</p>
+            <p>twenty</p>
+            <p>thirty</p>
+            <p>fourty</p>
+            <p>fifty</p>
+            <p>ten</p>
+            <p>twenty</p>
+            <p>thirty</p>
+            <p>fourty</p>
+            <p>fifty</p>-->
+        </div>
+    </body>
+</html>
