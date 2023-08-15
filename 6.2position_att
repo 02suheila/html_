@@ -1,0 +1,47 @@
+<!--POSITION
+static:(default no movement)
+ position static;
+
+absolute:(row format)work based on parent
+
+relative:relative move directions using TLRB.
+If we get scroll horizontally we have to deacrease by width in %
+Top is used as pixels
+top -left-right-bottom
+T-position:relative;
+    top:40px;
+
+L-position:relative;
+        left:20%;
+        width:50%;
+
+fixed: how to fix element on image 
+sticky: it is purley used for navigation bar - that makes navigation text constant while scrolling.
+position:sticky;
+        top:0%;
+-->
+<html>
+    <head>
+        <title>POSITION</title>
+        <style>
+            /*p{
+                position:absolute;
+                left:20px;
+                width:60%;
+                top:400px;
+                border: 1px solid red;
+            }
+            */
+            p{
+                position:fixed;
+                bottom:0%;
+
+            }
+        </style>
+        
+    </head>
+    <body>
+        <p>this a position web</p>
+        <img src="eli.jpg">
+    </body>
+</html>
