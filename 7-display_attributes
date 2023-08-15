@@ -1,0 +1,47 @@
+<!--DISPLAY PROPERTIES:
+by default the display in block element
+
+inline -used for appear in same line even in list 
+even different formats can also be written in inline
+
+block-used to change inline to block like(br/)
+
+inline-block:#check once amazon-block.html
+convert to inline with borders.which is applied on bunch of elements(div,section)
+-->
+<html>
+    <head>
+        <title>display</title>
+    </head>
+    <style>
+        li{
+            display:inline;
+        }
+        /*p,h4{
+            display: inline;
+        }*/
+        input{
+            display:flex;
+        }
+        .l{
+            display:inline-block;
+        }
+
+    </style>
+    <body>
+        <ul>
+            <li>APPLE</li>
+            <li>BALL</li>
+            <li>CAT</li>
+            <li>DOG</li>
+            <p>hvhk</p>
+        </ul>
+        <div class="l">
+            <p>paraaaaaaaaaaaaaa</p>
+            <h4>headddddddddddddddddd</h4>
+        </div>
+        <input/>
+        <br>
+        <input/>
+    </body>
+</html>
