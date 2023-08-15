@@ -1,0 +1,50 @@
+<!--CSS applied for HTML-->
+
+<!--selectors:simple selector->element,#id,.class*
+    id-css style for any particular para are heading to apply property(single element)-mainly used in javascript
+    class-css and bootstrap (multiple elements to spply property)
+    
+combinator selector->descandant,child*,adjusent,general sibiling
+pseudo class->:link,:visited,:hover*,:active
+pseduo element->::first,::last,::after,::before
+attribute selectors-->
+
+<!--under style we describe different styles-->
+
+<!--selector{
+    properties; each property carriers values
+}-->
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+            p{
+                color:red;
+
+            }
+            h2{
+                color:maroon;
+            }
+            body{
+                background-color:green;
+            }
+            #three-para{
+                color:pink;
+            }
+            .same{
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+
+        <p>HEHEHEEHEHEHEHE</p>
+        <h2>hehehheheehehhe</h2>
+        <p id ="three-para">hloooo</p>
+        <p class="same">boloooo</p>
+        <!-- for giving colour to  group of elements noneed to write clss,id with no of tuimes
+        we have div family to excetue this one -->
+    
+
+    </body>
+</html>
