@@ -1,0 +1,40 @@
+<!--pseudo class
+:link    :until didnt used the link the properties are applied
+:visited :after visiting link the properties are applied
+:hover*  :arrowing on link
+:active  :clicking position
+
+pseduo element->::first,::last,::after,::before
+attribute selectors-->
+
+<!--selector:pseudo-class_selector{
+    properties; each property carriers values
+    --------------------------------------------------------------------------
+}
+-->
+<html>
+    <head>
+        <title>links</title>
+        <style>
+            a:link{
+                color:green;
+            }
+            a:visited{
+                color:red;
+            }
+            a:hover{
+                background-color:purple;
+                border: 1px solid yellow ;
+            }
+            a.active{
+                color:yellow;
+            }
+        </style>
+
+    </head>
+    <body>
+        <a href="www.google.com">google</a>
+        <a href="www.amazon.com">amazon</a>
+
+    </body>
+</html>
