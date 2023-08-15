@@ -1,0 +1,61 @@
+<html>
+    <title>ELIZABETH</title>
+    <style>
+        body{
+            background-image:url('bg1.jpg') ;
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+        }
+        img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+    }
+    </style>
+    <br>
+    <h1 style="color:white;text-align:center;font-family:Segoe UI;">ELIZABETH QUEEN</h1>
+    
+
+    <BR>
+    <figure>
+        <img src="eli.jpg" width="10" height="500" class="center">
+        <figcaption style="color:rgb(51, 4, 95);text-align:center;">ELIZABETH QUEEN
+        <a href="https://en.wikipedia.org/wiki/Elizabeth_II">Former Queen of the United Kingdom</a>
+        </figcaption>
+
+    </figure>
+    <ul>
+        <li>ABOUT HER</li>
+        <ul>
+            <li>Elizabeth was queen of the united kingdom</li>
+            <br>
+            <li>she born on february 6 1952</li>
+            <br>
+            <li>her death in 2022</li>
+            <br>
+            <li>Elizabeth was born in Mayfair, London</li>
+            <br>
+            <li>first child of the Duke and Duchess of York </li>
+        </ul>
+        <br>
+        <li>PROFESSION</li>
+        <br>
+        <ul>
+            <li>MODERN MONARCHY</li>
+        </ul>
+        <ul>
+            <li>The queen seemed increasingly aware of the modern role of the monarchy</li>
+            <br>
+            <li>the royal family faced a number of challenges.</li>
+            <br>
+        </ul>
+    </ul>
+        
+    
+
+
+
+    </body>
+
+</html>
